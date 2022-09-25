@@ -1,0 +1,98 @@
+html {
+    background: #ffffff;
+    font-family: Arial, serif;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+}
+
+.item {
+    font-size: 1.5rem;
+    line-height: 1;
+    text-align: center;
+    background: #e8e8e8;
+    border: 6px solid #8e8e8e;
+    color: #8e8e8e;
+    margin: 6px;
+    border-radius: 15px;
+}
+
+article, aside, aside, footer, section {
+    padding: 3rem 1rem;
+}
+
+article.item {
+    border: 6px solid #aad2ff;
+    background-color: #e5efff;
+    color: #4ba4ff;
+    order: 2;
+    flex: 3;
+}
+
+nav {
+    display: flex;
+    height: fit-content;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+nav div {
+    flex: 1;
+    height: 6rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav div:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+nav div:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+nav div a {
+    flex: 1;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+    color: #8e8e8e;
+}
+
+nav div:hover{
+    background: #b5b5b5;
+    color: white;
+}
+
+.sidebar-left {
+    background-color: #e9c5c5;
+    border: 6px solid #b53f3f;
+    color: #b53f3f;
+    order: 1;
+    flex: 1;
+}
+.sidebar-right {
+    background-color: #B2DFDB;
+    border: 6px solid #009688;
+    color: #009688;
+    order: 3;
+    flex: 1;
+}
+@media screen and (max-width: 575px) {
+    main {
+        flex-direction: column;
+    }
+    .sidebar-left {
+        order: 2;
+    }
+}
+
+
+
