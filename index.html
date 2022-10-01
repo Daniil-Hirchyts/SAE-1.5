@@ -7,23 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <header class="item">
-        <nav>
-            <div><a href="">Section 1</a></div>
-            <div><a href="">Section 2</a></div>
-            <div><a href="">Section 3</a></div>
-            <div><a href="">Section 4</a></div>
-            <div><a href="">Section 5</a></div>
-        </nav>
+    <header>
+        <div id="navigation-bar">
+            <div class="logo-bar">
+                <div class="logo"><img src="assets/images/logo.PNG" alt="logo"></div>
+                <div class="title"><h1>Titre</h1></div>
+            </div>
+            <div class="navigation">
+                <nav>
+                    <div><a href="./index.html">Section 1</a>
+                        <div class="submenu">
+                            <div><a href=""><span class="puce">■</span> Sub-section</a></div>
+                            <div><a href=""><span class="puce">■</span> Sub-section</a></div>
+                            <div><a href=""><span class="puce">■</span> Sub-section</a></div>
+                        </div>
+                    </div>
+                    <div><a href="">Section 2</a></div>
+                    <div><a href="">Section 3</a></div>
+                    <div><a href="">Section 4</a></div>
+                </nav>
+            </div>
+        </div>
     </header>
     <main>
-        <article class="item">
-            <section class="item">Section 1</section>
-            <section class="item">Section 2</section>
-            <section class="item">Section 3</section>
-        </article>
-        <aside class="item sidebar-left">Left Sidebar</aside>
-        <aside class="item sidebar-right">Right Sidebar</aside>
+        <div class="item" id="first-section">
+            <article class="item first-article">
+                <div class="sub-section">
+                    <section class="item">Section 1</section>
+                    <section class="item">Section 2</section>
+                </div>
+                <div class="sub-section S3">
+                    <section class="item">Section 3</section>
+                </div>
+            </article>
+        </div>
     </main>
     <footer class="item">Footer</footer>
 </body>
