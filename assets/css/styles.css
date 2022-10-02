@@ -137,25 +137,33 @@ article, footer, section {
     padding: 3rem 1rem;
 }
 
-#first-section {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
     background-color: #17ff00;
+    margin: 0 0 2rem 0;
 }
 
-article.item.first-article {
+article {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
     width: 65%;
     padding: 1rem;
-    order: 1;
-    flex: 3;
     background-color: #ff8100;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+    width: 100%;
+    background: #e8e8e8;
+    color: #8e8e8e;
 }
 
 .sub-section {
@@ -168,35 +176,105 @@ article.item.first-article {
     background-color: #ff00f0;
 }
 
-.sub-section.S3 {
-    justify-content: center;
+/*ARTICLE 1*/
+
+.a1{
+    justify-content: space-between;
 }
 
-.sub-section > section:nth-child(1) {
+.ss-11 > section:nth-child(1) {
     width: 40%;
     height: 6rem;
 }
 
-.sub-section > section:nth-child(2) {
+.ss-11 > section:nth-child(2) {
     width: 25%;
     height: 4rem;
 }
 
-.sub-section.S3 > section{
+.ss-12 > section{
     width: 100%;
     height: 12rem;
 }
 
-section {
-    margin: 0 1rem;
-    width: 100%;
-    display: flex;
+/*ARTICLE 2*/
+
+.a2 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ss-21 {
+    width: 50%;
+    background: #1adc76;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #e8e8e8;
-    color: #8e8e8e;
+    padding: 0;
 }
+
+.ss-22 {
+    width: 50%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #125030;
+    padding: 1rem;
+}
+
+.top-section, .bottom-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.top-section {
+    background-color: #ffdd00;
+}
+
+.bottom-section {
+    background-color: #f6bb76;
+}
+
+.ss-21 section, .ss-22 section {
+    margin: 0;
+}
+
+.ss-21 section {
+    height: 12rem;
+    width: 15rem;
+    margin: 1rem;
+    padding: 0;
+}
+
+.ss-22 section {
+    height: 25rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.top-section > section:nth-child(1) {
+    margin: 1rem 0.5rem 0.5rem 1rem;
+}
+.top-section > section:nth-child(2) {
+    margin: 1rem 1rem 0.5rem 0.5rem;
+}
+.bottom-section > section:nth-child(1) {
+    margin: 0.5rem 0.5rem 1rem 1rem;
+}
+.bottom-section > section:nth-child(2) {
+    margin: 0.5rem 1rem 1rem 0.5rem;
+}
+
+/*FOOTER*/
 
 footer {
     background: #e8e8e8;
