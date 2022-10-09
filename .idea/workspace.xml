@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7126809d-33f3-45a4-901f-3ae6304e601d" name="Changes" comment="Final Commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FH6haGrKKGpVsbSw6NBDLRG6DB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hirchytsdaniil/WebstormProjects/SAE-1.5/assets/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets/fonts" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7126809d-33f3-45a4-901f-3ae6304e601d" name="Changes" comment="" />
+      <created>1664136781617</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664136781617</updated>
+      <workItem from="1664136783252" duration="4416000" />
+      <workItem from="1664175061407" duration="2000" />
+      <workItem from="1664175081824" duration="3868000" />
+      <workItem from="1664201575494" duration="38000" />
+      <workItem from="1664281824616" duration="54000" />
+      <workItem from="1664641441301" duration="11995000" />
+      <workItem from="1664661409541" duration="9042000" />
+      <workItem from="1664703089382" duration="512000" />
+      <workItem from="1664708634220" duration="200000" />
+      <workItem from="1664708983908" duration="185000" />
+      <workItem from="1664709432689" duration="6943000" />
+      <workItem from="1664717469635" duration="23314000" />
+      <workItem from="1664779181551" duration="22810000" />
+      <workItem from="1664959482956" duration="982000" />
+      <workItem from="1664993908988" duration="8250000" />
+      <workItem from="1665036472033" duration="6215000" />
+      <workItem from="1665129977264" duration="42453000" />
+      <workItem from="1665319106293" duration="30167000" />
+    </task>
+    <task id="LOCAL-00001" summary="File structure">
+      <created>1664137409355</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664137409355</updated>
+    </task>
+    <task id="LOCAL-00002" summary="File structure - ✅&#10;Base page layout - ✅">
+      <created>1664141752188</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664141752188</updated>
+    </task>
+    <task id="LOCAL-00003" summary="File structure - ✅&#10;Base page layout - ✅">
+      <created>1664141766928</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664141766928</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Base page layout">
+      <created>1664653591670</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664653591670</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Base page layout">
+      <created>1664703007966</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664703007967</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Base page layout">
+      <created>1664716393652</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664716393652</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Base page layout">
+      <created>1664735869317</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664735869317</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Base page layout">
+      <created>1664749589396</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664749589396</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Base page layout">
+      <created>1664805234881</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664805234881</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Base page layout">
+      <created>1665153354078</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665153354078</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Base page layout">
+      <created>1665243925169</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665243925169</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Final Commit">
+      <created>1665358403725</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665358403725</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="File structure" />
+    <MESSAGE value="File structure - ✅&#10;Base page layout - ✅" />
+    <MESSAGE value="Base page layout" />
+    <MESSAGE value="Final Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Commit" />
+  </component>
+</project>
