@@ -50,7 +50,7 @@ header {
     line-height: 1;
     text-align: center;
     backdrop-filter: blur(25px);
-    border-bottom: rgba(23, 24, 30, 0.23) 2px solid;
+    /*border-bottom: rgba(23, 24, 30, 0.23) 2px solid;*/
     z-index: 100;
 }
 
@@ -319,7 +319,7 @@ h2:not(.title h2):hover{
     filter: blur(0);
 }
 
-h3, label, input[type=submit], .button-arrow span{
+h3, label, input[type=submit]{
     font-family: Font2;
     font-size: 25px;
     font-weight: 100;
@@ -426,7 +426,12 @@ a {
 .button-arrow span {
     padding: 0 15px;
     transition: padding, 0.25s ease-in 100ms;
-    color: #BDDFBD;
+
+    font-family: Font2;
+    font-size: 25px;
+    font-weight: 100;
+    color: #a6fba6;
+    text-shadow: 0 0 5px #8EC38D;
 }
 
 .button-arrow:hover span{
@@ -743,6 +748,11 @@ input[type=submit]:hover {
 
     .text-section {
         max-width: 100%;
+    }
+
+    header {
+        background-color: #0D100C;
+        backdrop-filter: blur(0);
     }
 
     .header .container {
