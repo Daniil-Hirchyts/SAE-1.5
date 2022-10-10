@@ -337,7 +337,12 @@ p, a  {
 }
 
 .header, .title, .boxes {
-    margin-bottom: 100px !important;
+    padding-bottom: 50px !important;
+    margin-bottom: 0 !important;
+}
+
+.header, .boxes, .footer {
+    padding-top: 50px !important;
 }
 
 a {
