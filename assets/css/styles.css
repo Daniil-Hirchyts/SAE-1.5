@@ -288,13 +288,12 @@ h1 {
     color: #0D100C;
     text-shadow: 0 0 15px #67e165;
     filter: blur(0.003em);
-    transition: text-shadow,font-size,filter, 0.5s ease-in 100ms;
+    transition: text-shadow,font-size,filter,color, 0.5s ease-in 100ms;
 }
 
 h1:hover {
     font-size: min(20vw, 126px);
     text-shadow: 0 0 23px #4ad163;
-    /*filter: blur(0);*/
     color: #000e00;
 
 }
