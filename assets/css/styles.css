@@ -273,10 +273,6 @@ section {
     box-shadow: 0 5px 15px #0D100C;
 }
 
-section:nth-child(odd) {
-    backdrop-filter: brightness(1.1);
-}
-
 .container {
     display: flex;
     justify-content: space-between;
@@ -750,6 +746,7 @@ input[type=submit]:hover {
     background-color: #232325;
     box-shadow: 0 0 6px #BDDFBD;
     transition: box-shadow, 0.25s ease-in 100ms;
+    z-index: 100;
 }
 
 #back-to-top:hover {
