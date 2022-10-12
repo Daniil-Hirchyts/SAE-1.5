@@ -166,7 +166,18 @@ nav > div > a:hover {
 }
 
 .submenu > div:hover a{
-    filter: brightness(1.5);
+    filter: brightness(1.2);
+}
+
+.nlc {
+    display: flex;
+    justify-content: center;
+    filter: brightness(1);
+    transition: filter, 0.25s ease-in 100ms;
+}
+
+.nlc:hover {
+    filter: brightness(1.2);
 }
 
 /*TODO !------------------BURGER MENU------------------!*/
@@ -261,6 +272,10 @@ section {
     box-shadow: 0 5px 15px #0D100C;
 }
 
+section:nth-child(odd) {
+    backdrop-filter: brightness(1.1);
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -286,16 +301,31 @@ h1 {
     font-size: min(20vw, 125px);
     line-height: 80%;
     color: #0D100C;
-    text-shadow: 0 0 15px #67e165;
+    text-shadow: 1px 3px 2px #78ff4a, 0 0 15px #67e165, -2px 0 5px #d0ff01;
     filter: blur(0.003em);
-    transition: text-shadow,font-size,filter,color, 0.5s ease-in 100ms;
+    transition: text-shadow,font-size,color, 0.5s ease-ease 100ms;
+    animation-name: blink;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    0%   {    text-shadow: 1px 3px 2px #78ff4a, 0 0 15px #67e165, -2px 0 5px #d0ff01;
+    }
+    25%  {    text-shadow: 1px 3px 2px #78ff4a, 0 0 25px #67e165, -2px 0 8px #d0ff01;
+    }
+    50%  {    text-shadow: 1px 3px 1px #78ff4a, 0 0 10px #67e165, -2px 0 5px #d0ff01;
+    }
+    75%  {    text-shadow: 1px 3px 3px #78ff4a, 0 0 30px #67e165, -2px 0 10px #d0ff01;
+    }
+    100% {    text-shadow: 1px 3px 2px #78ff4a, 0 0 15px #67e165, -2px 0 5px #d0ff01;
+    }
 }
 
 h1:hover {
-    font-size: min(20vw, 126px);
-    text-shadow: 0 0 23px #4ad163;
+    text-shadow: 1px 3px 2px #78ff4a, 0 0 20px #67e165, -2px 0 5px #d0ff01;
     color: #000e00;
-
+    transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 h2, .menu__box a {
@@ -306,13 +336,12 @@ h2, .menu__box a {
     text-shadow: 0 0 15px #8EC38D;
     filter: blur(0.008em);
     transition: text-shadow,font-size,filter, 0.5s ease-in 100ms;
-
 }
 
 h2:not(.title h2):hover{
-    font-size: min(10vw, 51px);
     text-shadow: 0 0 20px #a6e5a5;
     filter: blur(0);
+    letter-spacing: 1px;
 }
 
 h3, label, input[type=submit]{
@@ -348,7 +377,7 @@ a, input[type=email], input[type=submit], form label {
 /*TODO !------------------SECTION TITLE------------------!*/
 
 .title {
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 .title .container {
@@ -478,6 +507,7 @@ a, input[type=email], input[type=submit], form label {
 .image-title-section img:hover, .image-section img:hover, .box img:hover {
     box-shadow: 0 0 25px #000000;
     filter: contrast(90%);
+    transform: scale(1.05);
 }
 
 /*TODO !------------------SECTION HEADER------------------!*/
@@ -724,6 +754,16 @@ input[type=submit]:hover {
 #back-to-top:hover {
     box-shadow: 0 0 15px #BDDFBD;
 }
+
+footer a {
+    filter: brightness(1);
+    transition: filter, 0.25s ease-in 100ms;
+}
+
+footer a:hover {
+    filter: brightness(1.2);
+}
+
 
 /*TODO !------------------MEDIA QUERIES------------------!*/
 
