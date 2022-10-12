@@ -367,7 +367,7 @@ p, a  {
     padding-top: 50px !important;
 }
 
-a, input[type=email], input[type=submit], form label {
+a, input[type=email], input[type=submit], form label, .menu__btn {
     cursor: url('../images/cursor1.png'), auto;
 }
 
