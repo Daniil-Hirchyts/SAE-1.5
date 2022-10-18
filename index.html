@@ -16,14 +16,14 @@
             </div>
             <div class="navigation">
                 <nav>
-                    <div class="li"><a href="#title">Section 1</a></div>
-                    <div class="li"><a href="#header">Section 2</a></div>
-                    <div class="li"><a href="#boxes-i">Section 3</a></div>
-                    <div><a href="#boxes-t">Dropdown</a>
+                    <div class="li"><a href="#title">Accueil</a></div>
+                    <div class="li"><a href="#header">Histoire</a></div>
+                    <div class="li"><a href="#boxes-i">Salles</a></div>
+                    <div><a href="#boxes-t">Étapes</a>
                         <div class="submenu">
-                            <div><a href="#footer">Sub-section</a></div>
-                            <div><a href="#footer">Sub-section</a></div>
-                            <div><a href="#footer">Sub-section</a></div>
+                            <div><a href="#et1">Étape 1'</a></div>
+                            <div><a href="#et2">Étape 2</a></div>
+                            <div><a href="#et3">Étape 3</a></div>
                         </div>
                     </div>
                 </nav>
@@ -39,10 +39,10 @@
                 </label>
 
                 <ul class="menu__box">
-                    <li><a class="menu__item" href="#title">Section 1</a></li>
-                    <li><a class="menu__item" href="#header">Section 2</a></li>
-                    <li><a class="menu__item" href="#boxes-i">Section 3</a></li>
-                    <li><a class="menu__item" href="#boxes-t">Section 4</a></li>
+                    <li><a class="menu__item" href="#title">Accueil</a></li>
+                    <li><a class="menu__item" href="#header">Histoire</a></li>
+                    <li><a class="menu__item" href="#boxes-i">Salles</a></li>
+                    <li><a class="menu__item" href="#boxes-t">Étapes</a></li>
                 </ul>
             </div>
         </div>
@@ -56,8 +56,9 @@
                         <h2>Escape Game</h2>
                     </div>
                     <div class="title-button-section">
-                        <p>Lorem ipsum dolor sit ametsar, consectetur adipiscing elitasa phasellus sem nisl.</p>
-                        <a class="button-arrow" href="/assets/images/cat.png" download><span>Affiche</span> <img class="arrow" src="assets/images/arrow-right.svg" alt=""></a>
+                        <p>POURREZ-VOUS VOUS ECHAPPER?
+                            Votre temps est compté. Résolvez l'énigme!</p>
+                        <a class="button-arrow" href="/assets/images/cat.png" download><span>Enigme</span> <img class="arrow" src="assets/images/arrow-right.svg" alt=""></a>
                     </div>
                 </div>
                 <div class="image-title-section">
@@ -69,10 +70,8 @@
         <section id="header" class="header">
             <article class="container">
                 <div class="text-section">
-                    <h2>Section name</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    <h2>Histoire</h2>
+                    <p>C’est une aventure en équipe, où il vous faudra faire appel à la logique et à la coopération afin de résoudre des énigmes et relever des défis pour réussir à s’évader du jeu dans le temps imparti.</p>
                 </div>
                 <div class="image-section">
                     <img src="assets/images/header-banner.png" alt="">
@@ -83,22 +82,20 @@
         <section id="boxes-i" class="boxes">
             <article class="container">
                 <div class="text-section">
-                    <h2>Section name</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    <h2>Différentes salles</h2>
+                    <p>Voici les salles dans lesquels vous serez plongé dans l’obscurité au fin fond d’une grotte votre but vous échapper avant qu’il soit trop tard.</p>
                 </div>
                 <div class="boxes-section">
                     <div class="box">
-                        <h3>Section name 1</h3>
+                        <h3>Sombre début</h3>
                         <img class="img-box" src="assets/images/box-banner1.png" alt="">
                     </div>
                     <div class="box">
-                        <h3>Section name 2</h3>
+                        <h3>L'incantation lugubre</h3>
                         <img class="img-box" src="assets/images/box-banner2.png" alt="">
                     </div>
                     <div class="box">
-                        <h3>Section name 3</h3>
+                        <h3>La pièce manquante</h3>
                         <img class="img-box" src="assets/images/box-banner3.png" alt="">
                     </div>
                 </div>
@@ -108,30 +105,38 @@
         <section id="boxes-t" class="boxes">
             <article class="container">
                 <div class="text-section">
-                    <h2>Section name</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    <h2>Etapes</h2>
+                    <p>Cette aventure se compose de trois étapes de difficulté différente et de plusieurs types d'action.</p>
                 </div>
                 <div class="boxes-section">
-                    <div class="box">
-                        <h3>Section name 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed doExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="box" id="et1">
+                        <h3>Première etape</h3>
+                        <p>Vous êtes bloqués dans une pièce, la nuit est tombé,
+                            et la lune commence à se lever. Dans la pièce où vous
+                            vous trouvez se trouve un escalier menant à une porte en fer.
+                            Cette porte ne comporte pas de poignée, et est beaucoup trop lourde
+                            pour être déplacé. Une autre porte se trouve dans la pièce, une porte
+                            en bois, à laquelle il manque une poignée. Votre but est de l'ouvrir.</p>
                     </div>
 
-                    <div class="box">
-                        <h3>Section name 2</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    <div class="box" id="et2">
+                        <h3>Deuxieme etape</h3>
+                        <p>En passant dans l'escalier,l'air est de plus en plus
+                            humide et il fait de plus en plus sombre. En bas de celui-ci
+                            se trouve un grand couloir menant à une pièce dans laquelle
+                            se trouve en plein milieu, un symbole et une multitude de tunnels.
+                            Si vous vous amusez à éclairer les murs de l'escalier avec la
+                            torche présente dans la première pièce vous y apercevrait des inscriptions. </p>
                     </div>
 
-                    <div class="box">
-                        <h3>Section name 3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua. Ut enim ad minim veniam, quis nost.</p>
+                    <div class="box" id="et3">
+                        <h3>Troisème etape</h3>
+                        <p>Pour la dernière étape, léquipe se rendra dans la pièce contenant
+                            le symbole étrange au sol, il auront pu remarqué qu'une et qu'une
+                            seule bougie était présente et allumer à lintérieur de ce symbole,
+                            mais que des traces rondes sont présentes à d'autres endroit de
+                            celui-ci. Leur but sera de trouver les bougies manquantes dans
+                            les nombreux tunnels de la grotte. </p>
                     </div>
                 </div>
             </article>
@@ -145,32 +150,32 @@
                 <div class="top-footer-section">
                     <div class="link-section">
                         <div class="link-box">
-                            <a href="index.html#debut"><img src="assets/images/link.svg" alt="logo">Link Section 1</a>
-                            <a href="index.html#debut"><img src="assets/images/github.svg" alt="logo">Link Section 2</a>
-                            <a href="index.html#debut"><img src="assets/images/map.svg" alt="logo">Link Section 3</a>
+                            <a href="index.html#debut"><img src="assets/images/link.svg" alt="logo">Davantage</a>
+                            <a href="index.html#debut"><img src="assets/images/github.svg" alt="logo">GitHub</a>
+                            <a href="index.html#debut"><img src="assets/images/map.svg" alt="logo">Carte</a>
                         </div>
                         <div class="link-box">
-                            <a href="index.html#debut"><img src="assets/images/instagram.svg" alt="logo">Link Section 4</a>
-                            <a href="index.html#debut"><img src="assets/images/facebook.svg" alt="logo">Link Section 5</a>
-                            <a href="index.html#debut"><img src="assets/images/twitter.svg" alt="logo">Link Section 6</a>
+                            <a href="index.html#debut"><img src="assets/images/instagram.svg" alt="logo">Instagram</a>
+                            <a href="index.html#debut"><img src="assets/images/facebook.svg" alt="logo">Facebook</a>
+                            <a href="index.html#debut"><img src="assets/images/twitter.svg" alt="logo">Twitter</a>
                         </div>
                     </div>
                     <div class="form-section">
                         <form>
-                            <label for="mail">Label form name</label>
+                            <label for="mail">Lettre d'information</label>
                             <span>
                                 <input type="email" id="mail" name="email" placeholder="email@mail.fr">
                                 <input type="submit" value="Submit">
                             </span>
-                            <p>Form description</p>
+                            <p>Soyez au courant de nos derniers projets</p>
                         </form>
                     </div>
                 </div>
                 <div class="bottom-footer-section">
                 <div class="link-section">
-                    <a href="">Link 1</a>
-                    <a href="">Link 2</a>
-                    <a href="">Link 3</a>
+                    <a href="">Partenaires</a>
+                    <a href="">Créateurs</a>
+                    <a href="">Avis</a>
                 </div>
                 </div>
             </div>
